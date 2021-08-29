@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "package"
+version = "0.1.0"
+description = "Test Python package"
+authors = ["Akio Taniguchi <taniguchi@a.phys.nagoya-u.ac.jp>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b"
+flake8 = "^3.9"
+ipython = "^7.27"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
